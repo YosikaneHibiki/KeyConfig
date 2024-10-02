@@ -1,8 +1,14 @@
-このKeyConfigを作るきっかけは神エボのゲーム制作でリーダーにお願いされて作ったものです
-このKeyConfigはInputsystemのフレームワークを使ったアプリケーションです
-KeyConfigの設計思想は拡張性が高くするため複数のサービスと一つのデータアクセスで成り立ちます。
-そして一部オブジェクトはデータだけのクラスにしてあり不正な値を防ぐ方針です
-DIコンテナを使い依存性の逆転とテストのしやすい設計してあります
-KeyConfigの機能は　同じKeyを発見すると重複していますとUIを出してKeyの重複を防ぐ
-防がれたKeyはcancelするか入れ替えることが出来る
-そしてセーブとロードとデフォルトのKeyに戻すことが出来る
+# KeyConfig
+InputSystemのKeyBindを変更するライブラリです
+# 使い方
+![image](https://github.com/user-attachments/assets/31c8b4ca-d8e0-4e92-aea9-4882016b3156)  
+RebindしたいActionをActionRefに入れます。  
+InputTypeを設定します この設定ではInputTypeの操作に限定します。  
+設定項目は  
+Keyboard  
+Mouse  
+GamePad  
+
+SecondInputTypeはこれと同じです。  
+BindingではKeyのBindingを個別で設定出来ます。  
+
