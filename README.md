@@ -12,3 +12,10 @@ GamePad
 SecondInputTypeはこれと同じです。  
 BindingではKeyのBindingを個別で設定出来ます。  
 
+#機能
+![image](https://github.com/user-attachments/assets/4027c92f-7610-451e-8dab-ba0120ae2ae2)  
+Keyのコンフリクト防止機能  
+ここではKeyのチェンジかKeyのcancelが出来ます  
+
+
+
