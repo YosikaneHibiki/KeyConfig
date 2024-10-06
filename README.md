@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/7bfde2b4-419e-4a52-9844-da586b9ec458
 Keyのコンフリクト防止機能  
 ここではKeyのチェンジかKeyのcancelが出来ます  
 
-#目的  
+# 目的  
 このlibraryは他のプロジェクトでも再利用ができるように作りました。
 
 
